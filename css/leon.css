@@ -4,7 +4,6 @@
   --secondery-color: #2c4755;
   --section-padding: 60px;
   --section-bg: #f6f6f6;
-  scroll-behavior: smooth;
 }
 /* End Variables */
 
@@ -14,7 +13,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
 body {
   font-family: "work sans", sans-serif;
 }
